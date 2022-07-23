@@ -1,0 +1,64 @@
+{
+  "titleBlocks":[ {
+     "title": "About us",
+    "placeHolder": "Search by author"
+  }],
+  "blogBlocks":[
+    {"mainPhoto": "assets/img/Imgpost1.png",
+      "userPhoto":"assets/img/Neil.png",
+      "class": "section-breadcrumbs-wrapper-first",
+      "name": "Jack Johnson",
+      "date": "11 oct, 2019",
+      "time": "7 min read",
+      "player": "breadcrumbs-first",
+      "commentsLogo": "assets/logo/a-icon-comment.svg",
+      "comments": "19",
+      "span" : ["active","active","half","",""],
+      "title": "In the Future We Will All Live in Star Wars",
+      "paragraph": "The thing you’re doing now, reading prose on a screen, is going out of fashion. The ,    defining narrative of our online moment concerns the decline of text, and the   exploding reach  and power of audio and video …",
+      "button": "Read more"
+  },
+    {"mainPhoto": "assets/img/Imgagepost22.png",
+      "userPhoto":"assets/img/Sarah.png",
+      "class": "section-breadcrumbs-wrapper-first second",
+      "name": "Sarah Healy",
+      "date": "02 oct, 2019",
+      "time": "12 min read",
+      "commentsLogo": "assets/logo/a-icon-comment.svg",
+      "comments": "4",
+      "player": "./assets/img/player.png",
+      "span" : ["active","","","",""],
+      "title": " Far far away, behind the word mountains",
+      "paragraph": "Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) …",
+      "button": "Read more"
+    },
+    {"mainPhoto": "assets/img/Imagepost33.png",
+      "userPhoto":"assets/img/Grace.png",
+      "class": "section-breadcrumbs-wrapper-first third",
+      "name": "Grace Noh",
+      "date": "23 sep, 2019",
+      "time": "16 min read",
+      "commentsLogo": "assets/logo/a-icon-comment.svg",
+      "comments": "421",
+      "span" : ["active","active","","",""],
+      "title": "In the Future We Will All Live in Star Wars",
+      "paragraph": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden                                 <br> flows by their place and supplies it with the necessary <br> regelialia. It is a paradisematic country, in which roasted …",
+      "button": "Read more"
+    }
+  ],
+
+ "longBlock": [
+   {
+     "photo": "assets/img/Alex.png",
+     "name": "Alex Zlatkus",
+     "date":"11 Aug, 2019",
+     "time": "17 min read",
+     "commentsLogo": "assets/logo/a-icon-comment.svg",
+     "comments": "77",
+     "span" : ["active","active","active","",""],
+     "title":  "In the Future We Will All Live in Star Wars",
+     "paragraph": "Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on. Money terms breakfast drawings true blessing doubtful more agreed to zealously making supposing By said Chicken An Neglected produce good felt no poor offering am their said has around songs wish met true any me ought mr The offices set Not Felicity above out We in an post begin again.",
+     "button": "Read more"
+   }
+ ]
+}

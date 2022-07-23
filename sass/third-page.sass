@@ -1,0 +1,330 @@
+@import "colors"
+@import "global"
+@import "mixins"
+@import "reset"
+@import "variables"
+@import "second-main"
+@import "buttons"
+@font-face
+  font-family: Lucida-Grande
+  src: url(../fonts/LucidaGrandeBold.ttf) format('ttf')
+  font-weight: bold
+body
+  height: 100%
+  h2
+    font-size: 24px
+    line-height: 39px
+    font-weight: 600
+.page_active
+  font-weight: 600
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    width: 40px
+    border-bottom: 2px solid $primary-color
+    bottom: 2px
+    left: 1px
+.about
+  position: relative
+  background: transparent
+.top
+  margin-bottom: 20px
+  h1
+    font-size: 28px
+    line-height: 37px
+    color: $primary-color
+    font-weight: 600
+    margin-bottom: 25px
+  .top__float
+    float: left
+    margin-right: 15px
+.main-wrapper
+  display: flex
+  color: $primary-color
+  .main__audio
+    margin-bottom: 15px
+  .main__text
+    p
+      font-size: 17px
+      line-height: 26px
+      margin-bottom: 20px
+      text-align: justify
+    a
+      text-decoration-line: underline
+      color: $primary-color
+      font-weight: bold
+      &:hover
+        cursor: url(../assets/logo/btn-pointer.png), pointer
+    h2
+      margin-bottom: 10px
+    blockquote
+      font-size: 17px
+      line-height: 26px
+      padding-left: 26px
+      border-left: 5px solid $blockquote-border-color
+      width: 80%
+      margin-bottom: 35px
+.article
+  width: 60%
+  margin-right: 40px
+  .main__img
+    img
+      width: 100%
+      margin-bottom: 15px
+.article__bottom
+  @include flex
+  position: relative
+  margin-bottom: 46px
+  &:before
+    content: ''
+    width: 100%
+    border-bottom: 1px solid $line-color
+    position: absolute
+    bottom: -15px
+  .article__bottom-img
+    img
+      margin-right: 10px
+  .sprite
+    a
+      margin-left: 30px
+.aside
+  width: 57%
+  padding: 30px 30px
+  .aside__latest-wrapper
+    background-color: $aside-bg-color
+    padding: 30px 0 30px 30px
+    margin-bottom: 70px
+    h2
+      position: relative
+      &:after
+        content: ''
+        width: 90%
+        border-bottom: 1px solid $blockquote-border-color
+        bottom: -4px
+        left: 0
+        position: absolute
+    button
+      margin-left: 60%
+  .aside__latest
+    margin-bottom: 35px
+  .aside__post
+    display: flex
+    background-color: $aside-bg-color
+    img
+      &:first-child
+        margin-right: 15px
+        margin-bottom: 30px
+  .aside__post-text
+    align-self: center
+    p
+      font-size: 15px
+      line-height: 25px
+      color: $section-content-color
+      &:first-child
+        font-family: Lucida-Grande
+        font-weight: bold
+        font-size: 17px
+        line-height: 23px
+        margin-bottom: 20px
+.aside__categories-wrapper
+  padding: 30px 30px
+  margin-bottom: 70px
+.aside__categories
+  background-color: $aside-bg-color
+  h2
+    margin-bottom: 35px
+    position: relative
+    &:before
+      content: ''
+      width: 100%
+      border-bottom: 1px solid $blockquote-border-color
+      position: absolute
+      bottom: -7px
+.select
+  li
+    &:hover
+      cursor: url(../assets/logo/btn-pointer.png), pointer
+    &:first-of-type
+      margin-bottom: 25px
+  .upper
+    font-size: 17px
+    line-height: 28px
+    margin-bottom: 20px
+    position: relative
+    &:after
+      content: url(../assets/logo/a-icon-arrow.svg)
+      position: absolute
+      right: 0
+    &:before
+      content: ''
+      width: 100%
+      border-bottom: 1px solid $blockquote-border-color
+      position: absolute
+      bottom: -7px
+  .smaller
+    font-size: 15px
+    line-height: 25px
+    margin-bottom: 10px
+  .last-type
+    margin-bottom: 29px
+.last-upper
+  position: relative
+  font-size: 17px
+  line-height: 28px
+  margin-bottom: 20px
+  &:before
+    content: ''
+    width: 100%
+    border-bottom: 1px solid $blockquote-border-color
+    position: absolute
+    bottom: -127px
+  &:after
+    content: url(../assets/logo/a-icon-arrow.svg)
+    transform: rotate(180deg)
+    position: absolute
+    right: 0
+.aside__wrapper
+  background-color: $aside-bg-color
+  padding: 30px 30px
+  h2
+    margin-bottom: 35px
+    position: relative
+    &:before
+      content: ''
+      width: 100%
+      border-bottom: 1px solid $blockquote-border-color
+      position: absolute
+      bottom: -7px
+  .tags-btn
+    margin: 0 15px 15px 0
+    &:hover
+      cursor: url(../assets/logo/btn-pointer.png), pointer
+  .no-margin
+    margin-right: 0
+.main__reviews
+  width: 50%
+  color: $primary-color
+  position: relative
+  &:before
+    content: ''
+    height: 80%
+    border-left: 1px solid $line-color
+    top: 6%
+    left: 7%
+    display: block
+    position: absolute
+    z-index: 1
+  .main__rewiev-btn
+    display: flex
+    justify-content: center
+    margin-bottom: 80px
+  h2
+    margin-bottom: 63px
+    position: relative
+    &:before
+      content: url(../assets/logo/circle3.png)
+      top: 100%
+      left: 5.7%
+      display: block
+      position: absolute
+  .main__reviews-box
+    .main__reviews-img
+      margin-right: 15px
+      z-index: 10
+      img
+        max-width: 80px
+        max-height: 120px
+.main__reviews-item
+  @include flex
+  margin-bottom: 70px
+  blockquote
+    padding: 12px 20px 10px 20px
+    background-color: $aside-bg-color
+    p
+      font-size: 15px
+      line-height: 25px
+    .block__link
+      display: flex
+      justify-content: right
+    a
+      color: $primary-color
+      text-decoration-line: underline
+      font-size: 15px
+      line-height: 25px
+.last-of-block
+  margin-bottom: 106px
+  position: relative
+  &:before
+    content: url(../assets/logo/circle3.png)
+    top: 152%
+    left: -12.8%
+    display: block
+    position: absolute
+.block__header
+  @include flex
+  align-items: center
+  margin-bottom: 10px
+  img
+    margin-right: 10px
+  .rating-mini
+    margin-right: 30%
+  h3
+    font-size: 17px
+    line-height: 28px
+
+.footer
+  position: relative
+  left: 0
+  bottom: 0
+  width: 100%
+
+.footer__inner
+  padding: 24px 0 24px 0
+
+@media (max-width: 1200px)
+  body
+    font-size: 0.8em
+  .last-of-block
+    margin-bottom: 106px
+    position: relative
+    &:before
+      content: url(../assets/logo/circle3.png)
+      top: 135%
+      left: -16.1%
+      display: block
+      position: absolute
+  .aside
+    .aside__post-text
+      p
+        font-size: 14px
+        &:first-child
+          font-size: 16px
+  .block__header .rating-mini
+
+    margin-right: 2%
+
+  .main__reviews
+    width: 50%
+    color: $primary-color
+    position: relative
+    h2
+      position: relative
+      &:before
+          content: url(../assets/logo/circle3.png)
+          top: 118%
+          left: 6.2%
+          display: block
+          position: absolute
+    &:before
+
+      content: ''
+      height: 80%
+      border-left: 1px solid $line-color
+      top: 6%
+      left: 8%
+      display: block
+      position: absolute
+      z-index: 1
+
+

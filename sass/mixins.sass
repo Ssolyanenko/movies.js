@@ -1,0 +1,75 @@
+@mixin title-h2
+  font-size: 24px
+  line-height: 39px
+  font-weight: 700
+
+@mixin flex
+  display: flex
+  justify-content: space-between
+
+@mixin flex-column-center
+  display: flex
+  align-items: center
+  flex-direction: column
+  justify-content: center
+
+@mixin link-bold ($primary-color)
+  font-size: 17px
+  line-height: 28px
+  color: $primary-color
+  font-weight: 700
+@mixin primary-span ($primary-color)
+  font-size: 17px
+  line-height: 28px
+  color: $primary-color
+@mixin primary_input
+  display: block
+  width: 320px
+  height: 45px
+  outline: none
+  border-radius: 3%
+  margin: 5px 30px 30px 30px
+  font-size: 15px
+  line-height: 25px
+
+@mixin stick-decoration
+  position: absolute
+  top: 40px
+  left: 5px
+  content: ''
+  display: inline-block
+  width: 90px
+  border-bottom: 1px solid $solid-color
+  height: 8px
+  border-right: 1px solid $solid-color
+  border-left: 1px solid $solid-color
+  margin-bottom: 50px
+@mixin logo-icon ($white-color)
+
+  position: absolute
+  width: 86px
+  height: 78px
+  border-radius: 8px
+  border: 3px solid $white-color
+  top: 0
+  right: 0
+  padding: 14px 20px
+@mixin block__for-links
+  width: 27%
+  height: 33%
+  border-radius: 5px
+  position: absolute
+  bottom: -32%
+  right: 5%
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+  margin: 0
+  padding-left: 10px
+  //overflow: hidden
+  clip: auto
+
+
+#map
+  height: 300px
+  width: auto

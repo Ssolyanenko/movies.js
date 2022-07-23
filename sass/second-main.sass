@@ -1,0 +1,260 @@
+@import "colors"
+@import "variables"
+@import "reset"
+@import "mixins"
+@import "global"
+.section-breadcrumbs
+  margin-bottom: 50px
+
+
+.blog_active
+  font-weight: 600
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    width: 29px
+    border-bottom: 2px solid $primary-color
+    bottom: 2px
+    left: 1px
+.about
+  position: relative
+  background: transparent
+.breadcrumbs__text
+  display: flex
+  align-items: center
+  flex-direction: column
+  justify-content: center
+  margin-bottom: 60px
+  .for__stick
+    position: relative
+    &:before
+      position: absolute
+      content: ''
+      display: inline-block
+      width: 3px
+      border-bottom: 1px solid $solid-color
+      top: 40px
+      left: -47px
+  h2
+    font-size: 24px
+    line-height: 39px
+    font-weight: 700
+    position: relative
+    color: $primary-color
+    margin-bottom: 65px
+    &:after
+      @include stick-decoration
+    &:before
+      position: absolute
+      content: ''
+      display: inline-block
+      width: 3px
+      border-bottom: 1px solid $solid-color
+      top: 40px
+      right: 1px
+.breadcrumbs__form
+  display: flex
+  justify-content: end
+
+
+  input[type="text"]
+    margin-right: 0
+    border-radius: 6px
+    padding: 10px 10px
+    font-size: 15px
+    line-height: 25px
+    color: $primary-color
+    position: relative
+  input[type="text"]:focus
+    border: 1px solid $primary-color
+    border-radius: 5px
+.breadcrumbs__form
+  position: relative
+  &:before
+    content: url(../assets/logo/search.png)
+    width: 20px
+    display: block
+    position: absolute
+    top: 14px
+    right: 17px
+    z-index: 10
+
+
+
+
+.rating-mini
+  display: inline-block
+  font-size: 20px
+  color: $rating-color
+.rating-mini
+  span
+    &:before
+      content: '★'
+.rating-mini > span.active
+  color: $rating-active-color
+.rating-mini > span.half:before
+  content: url(../assets/logo/half-star.svg)
+.clear
+  clear: both
+.section-breadcrumbs-wrapper-first
+  display: flex
+  flex-direction: row
+  background-color: $aside-bg-color
+  position: relative
+  box-sizing: border-box
+  align-content: center
+  transition: all 0.3s
+  margin-bottom: 50px
+  &:hover
+    box-shadow: 0px 45px 35px -45px rgba(0,0,0,0.58)
+
+
+  .description-top
+    padding-top: 27px
+    div
+      float: left
+      margin-right: 15px
+      margin-bottom: 40px
+
+      img
+        border-radius: 50%
+
+  .section-breadcrumbs-img
+    width: 560px
+    font-size: 17px
+    line-height: 28px
+    img
+      width: 100%
+      height: 100%
+      display: block
+
+
+  .section-breadcrumbs-description
+
+    width: 542px
+    margin-right: 100px
+    padding-left: 40px
+
+.breadcrumbs-first
+  position: relative
+  &:before
+    display: block
+    content: url(../assets/logo/a-icon-play.svg)
+    position: absolute
+    top: 41%
+    left: 43%
+
+.first
+  position: relative
+  &:after
+    content: url(../assets/logo/a-icon-playmini.svg)
+    position: absolute
+    width: 86px
+    height: 78px
+    border-radius: 8px
+    border: 3px solid $white-color
+    top: 0
+    right: 0
+    padding: 14px 20px
+
+.second
+  position: relative
+  &:after
+    content: url(../assets/logo/a-icon-melody.svg)
+    @include logo-icon($white-color)
+
+.third
+  position: relative
+  &:after
+    content: url(../assets/logo/a-icon-picture.svg)
+    @include logo-icon($white-color)
+
+.forth
+  padding: 27px 100px 40px 27px
+  display: flex
+  justify-content: left
+  margin-bottom: 60px
+  &:after
+    content: url(../assets/logo/a-icon-text.svg)
+    @include logo-icon($white-color)
+  .section-breadcrumbs-description
+    width: 100%
+    margin: 0
+    padding: 0
+  .description-top
+    padding: 0
+  p
+    width: 100%
+.rating__wrapper
+  color: $section-content-color
+  font-size: 15px
+  line-height: 25px
+  a.neil
+    font-size: 17px
+    line-height: 28px
+    font-weight: 600
+    text-decoration: none
+    color: #4D4C49
+
+  .midddot
+    margin-right: 5px
+    margin-left: 5px
+  .desr-Nail
+    margin-right: 5px
+    img
+      margin-right: 2px
+
+.description__wrapper
+  color: $primary-color
+  a
+    display: block
+    font-size: 20px
+    line-height: 26px
+    padding-bottom: 15px
+    font-weight: 600
+    text-decoration: none
+    color: #4D4C49
+    margin-bottom: 20px
+
+  .description-img
+    margin-bottom: 10px
+
+  p
+    font-size: 17px
+    line-height: 26px
+    margin-bottom: 30px
+
+
+
+
+
+
+
+  button
+    margin-bottom: 50px
+    transition: all 0.3s
+    &:hover
+      cursor: url(../assets/logo/page_pointer.png), pointer
+.main_button
+  display: flex
+  justify-content: center
+  margin-bottom: 80px
+  .button-primary
+    &:hover
+      cursor: url(../assets/logo/page_pointer.png), pointer
+.copyright
+  width: 325px
+.fixed
+  width: 130px
+  font-weight: bold
+.line-clamp3
+  -webkit-line-clamp: 3
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  overflow: hidden
+.line-clamp4
+  -webkit-line-clamp: 4
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  overflow: hidden

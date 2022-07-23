@@ -1,0 +1,232 @@
+{
+  "header": [{
+    "title": "Ideas and perspectives you won’t <br> find anywhere else.",
+
+    "paragraph": "BlogWorld taps into the brains of the world’s most insightful writers, thinkers, and storytellers to bring you the smartest takes on topics that matter. So whatever your interest, you can always find fresh thinking and unique perspectives."}
+  ],
+  "buttonsHeader":[
+    {
+      "button": "button-primary",
+      "text": "Explore"
+    },
+    {
+      "button": "learn-more",
+      "text": "Learn more"
+    }
+  ],
+  "setTitle": [
+    {
+      "class": "section__top-text",
+      "title":"About us",
+      "paragraph": "This is who we are - or at least who we strive to be…"
+
+    }
+
+  ],
+  "setTitleSecond": [
+    {
+      "class":"section_center-text" ,
+      "title":"Latest posts",
+      "paragraph": "Information is a source of learning. But unless it is organized, <br>processed and available to the right people"
+
+    }
+
+  ],
+  "setTitleForth": [
+    {
+      "class": "section__contact-text",
+      "title":"Contact us",
+      "paragraph": "Put there articles successfully special warrant submit agree <br> what along then"
+
+    }
+
+  ],
+  "setTitleThird": [
+    {
+      "class": "section_portfolio-text",
+      "title":"Latest portfolio",
+      "paragraph": "Put there articles successfully special warrant submit agree <br> what along then"
+
+    }
+
+  ],
+
+  "linksSprite": [
+    {
+      "social": "facebook",
+      "img": "./assets/logo/a-icon-facebook.svg",
+      "link": "https://www.facebook.com/"
+
+    },
+    {
+      "social": "facebook",
+      "img": "./assets/logo/a-icon-instagram.svg",
+      "link": "https://www.instagram.com"
+
+    },
+    {
+      "social": "facebook",
+      "img": "./assets/logo/a-icon-dribbble.svg",
+      "link": "https://dribbble.com"
+
+    }
+
+  ],
+
+
+
+  "blocksAside":[
+    {
+      "class": "section__top-block-first",
+      "img": "./assets/logo/a-icon-typography.svg",
+      "span": "Typography"
+    },
+    {
+      "class": "section__top-block-second",
+      "img": "./assets/logo/a-icon-iconset.svg",
+      "span": "Icon set"
+    },
+    {
+      "class": "section__top-block-third",
+      "img": "./assets/logo/a-icon-accurate.svg",
+      "span": "Accurate"
+    }
+  ],
+ "setTopBlock": [
+   {
+     "img": "./assets/img/About-picture.png"
+   }
+
+ ],
+  "setCenterBlock": [
+    {
+      "img": "./assets/img/Imgpost1.png",
+      "title": "In the Future We Will All Live in Star Wars",
+      "paragraph": "The thing you’re doing now, reading prose on a screen, is going out of fashion. The defining narrative of our online moment concerns the decline of text, and the exploding reach and power of audio and video…",
+      "day": "20 oct, 2019",
+      "time": "10 min read",
+      "logo": "./assets/logo/a-icon-comment.svg",
+      "comments": "11"
+    },
+    {
+      "img": "./assets/img/Imgpost2.png",
+      "title": "Rubik’s Cube? No, Robotics and AI are…",
+      "paragraph": "In other words, I will try to de-hype the crowd about the recent development in robotics.                          Concretely, OpenAI has claimed some pretty amazing results with learning to solve the Rubik’s cube with a robotic hand…",
+      "day": "11 oct, 2019",
+      "time": "7 min read",
+      "logo": "./assets/logo/a-icon-comment.svg",
+      "comments": "19"
+    },
+    {
+      "img": "./assets/img/Imgpost3.png",
+      "title": "How the Internet of Things will Transfo…",
+      "paragraph": "The Internet of Things (IoT) promises to be the most important technological\n                           development for consumers since the advent of the smartphone. Experts believe that this collection of internet-connected technolog…\n <a id=\"portfolio\" href=\"#\"></a>",
+      "day": "28 sep, 2019",
+      "time": "16 min read",
+      "logo": "./assets/logo/a-icon-comment.svg",
+      "comments": "41",
+      "link": "portfolio"
+    }
+    ],
+  "firstWrapper": [
+    {
+      "img": "./assets/img/bg-img1.png",
+      "title": "Art Ocean",
+      "paragraph": "Photography, art, nature",
+      "logo": "./assets/logo/a-icon-attach.svg",
+      "search": "./assets/logo/a-icon-search-1.svg",
+      "class": "section_portfolio-title"
+    },
+    {
+      "img": "./assets/img/bg-img2.png",
+      "title": "City guide",
+      "paragraph": "Photography, city, way",
+      "logo": "./assets/logo/a-icon-attach.svg",
+      "search": "./assets/logo/a-icon-search-1.svg",
+      "class": "section_portfolio-title"
+    },
+    {
+      "img": "./assets/img/bg-img-3.png",
+      "title": "Mountains",
+      "paragraph": "Art, hiking",
+      "logo": "./assets/logo/a-icon-attach.svg",
+      "search": "./assets/logo/a-icon-search-1.svg",
+      "class": "section_portfolio-title last-type"
+    }
+  ],
+  "SliderButton": [
+
+    {
+
+      "img": "./assets/logo/a-icon-arrow.svg",
+      "BtnText": "See all works",
+      "btnClass": "learn-more"
+
+    }
+    ],
+  "setUser": [
+    {
+      "logo": "./assets/logo/a-icon-arrow.svg",
+      "blockquote": "<br> We move at a fast pace. I’m always working on something. I am excited about it!",
+      "paragraph": "Martin Oda",
+      "span": "Product designer",
+      "userImg": "./assets/img/Userimg.png",
+      "class": "section__user-inner-text",
+      "title":"Testimonials",
+      "spanFirst": "add_decoration"
+
+    }
+
+  ],
+  "getLi": [
+    {
+      "li":"1. We’ll prepare a proposal",
+      "p": "Required scope, timeline and apr. price will be included if you provide us with detail information about a project."
+
+    },
+    {
+      "li":"2. Together we discuss it",
+      "p": "Let’s get acquainted and discuss all the possible variant\n and options. Google Hangouts or Skype usually wirks great."
+
+    },
+    {
+      "li":"3. Let’s start building",
+      "p": "When the contract is signed and all goals are set <br> we can start the first\n  sprint."
+
+    }
+
+  ],
+
+  "mainContact": [
+    {
+      "buttonClass":"button-primary",
+      "buttonText": "Send message",
+      "p2": "If you need to have a DNA first, just contact <br> us at",
+      "email": "email@gmail.com",
+      "p": "Write us a few words about your project and we will prepare proposal for you <br>  within 24 hours",
+      "text": "Password",
+      "img": "./assets/img/map.png"
+
+    }
+    ],
+  "getInput": [
+    {
+      "class":"submit__form-first",
+      "for": "username",
+      "text": "Your name",
+      "type": "text",
+      "placeholder": ""
+
+    },
+    {
+      "class":"submit__form-third",
+      "for": "country",
+      "text": "Email",
+      "type": "email",
+
+      "placeholder": ""
+
+    }
+
+  ]
+}
